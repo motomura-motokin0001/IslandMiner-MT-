@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using DG.Tweening;
 
 public class top : MonoBehaviour, IPointerClickHandler
 { 
@@ -18,6 +19,10 @@ public class top : MonoBehaviour, IPointerClickHandler
     {
         count++; 
         countText.text = count + "回"; 
+    }
+    public void Update()
+    {
+        
     }
 }
 
