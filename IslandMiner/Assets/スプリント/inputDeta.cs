@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using System.Reflection;
+using Unity.VisualScripting;
 
 public class inputDeta : MonoBehaviour
 {
     public TextMeshProUGUI itemtext;
     public string itemname;
+
+
 
     void Update()
     {
@@ -26,7 +29,7 @@ public class inputDeta : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning($"DataManagerには'{itemname}'というフィールドがありません。");
+            Debug.Log($"DataManagerには'{itemname}'というフィールドがありません。");
         }
     }
 }

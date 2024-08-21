@@ -21,7 +21,10 @@ public class DataManager : MonoBehaviour
 
 
 
-
+    void Start()
+    {
+        Load();
+    }
 
     void Awake()
     {
@@ -37,4 +40,28 @@ public class DataManager : MonoBehaviour
         }
     }
 
+
+
+public void Save()
+{
+    PlayerPrefs.SetInt("stone_deta",stone);
+    PlayerPrefs.SetInt("coal_deta",coal);
+    PlayerPrefs.SetInt("iron_deta",iron);
+    PlayerPrefs.SetInt("gold_deta",gold);
+
+    // PlayerPrefs.SetInt("stone_deta",stone);
+    // PlayerPrefs.SetInt("stone_deta",stone);
+    // PlayerPrefs.SetInt("stone_deta",stone);
+    // PlayerPrefs.SetInt("stone_deta",stone);
+    Debug.LogWarning("セーブしました");
+    
+}
+
+void Load()
+{
+    stone = PlayerPrefs.GetInt("stone_deta",stone);
+    coal = PlayerPrefs.GetInt("coal_deta",coal);
+    iron = PlayerPrefs.GetInt("iron_deta",iron);
+    gold = PlayerPrefs.GetInt("gold_deta",gold);
+}
 }

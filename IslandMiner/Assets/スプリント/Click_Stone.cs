@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class Click_Stone : MonoBehaviour
 {
+    
     public Button Clickstone; // ボタンの参照
     public Text countText; // カウント表示用テキストの参照
     public TextMeshProUGUI stonetext;
@@ -15,7 +16,7 @@ public class Click_Stone : MonoBehaviour
 
     private int count = 0; 
     public int  Randomnumbr = 0;
-    public int stone= 0;
+    public int stone = 0;
     public int coal = 0;
     public int iron = 0;
     public int gold = 0;
@@ -23,6 +24,7 @@ public class Click_Stone : MonoBehaviour
 
     void Start()
     {
+        
         // ボタンにクリックイベントリスナーを追加
         Clickstone.onClick.AddListener(IncrementCount);
         // 初期カウント表示
@@ -50,6 +52,10 @@ public class Click_Stone : MonoBehaviour
 
     void Update()
     {
+        stonetext.text = DataManager.Instance.stone.ToString();
+        coaltext.text = DataManager.Instance.coal.ToString();
+        irontext.text = DataManager.Instance.iron.ToString();
+        goldtext.text = DataManager.Instance.gold.ToString();
         if (Randomnumbr == 1)
         {
             DataManager.Instance.stone++;
