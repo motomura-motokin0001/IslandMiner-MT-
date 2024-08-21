@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 42947319}
   - component: {fileID: 42947318}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: "\u65E5\u306B\u3061"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 225822362}
   - component: {fileID: 225822361}
   m_Layer: 0
-  m_Name: 3
+  m_Name: "\u9244"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -988,7 +988,7 @@ GameObject:
   - component: {fileID: 307885951}
   - component: {fileID: 307885950}
   m_Layer: 0
-  m_Name: 4
+  m_Name: "\u91D1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1404,7 +1404,7 @@ GameObject:
   - component: {fileID: 339264007}
   - component: {fileID: 339264006}
   m_Layer: 5
-  m_Name: Image
+  m_Name: "\u30BF\u30A4\u30C8\u30EB\u984D"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1939,7 +1939,7 @@ GameObject:
   - component: {fileID: 538004117}
   - component: {fileID: 538004116}
   m_Layer: 0
-  m_Name: 2
+  m_Name: "\u77F3\u70AD"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1962,7 +1962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 437.33, y: -43}
+  m_AnchoredPosition: {x: 437.31497, y: -42.998783}
   m_SizeDelta: {x: 1.3028, y: 0.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &538004116
@@ -1985,7 +1985,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2257,7 +2257,7 @@ GameObject:
   - component: {fileID: 776449589}
   - component: {fileID: 776449588}
   m_Layer: 0
-  m_Name: 1-1
+  m_Name: "\u77F3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2303,7 +2303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2484,7 +2484,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8721ea669f4ab54d92b2366d80aae95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 0
+  coin: 0
+  stone: 0
+  iron: 0
+  coal: 0
+  gold: 0
+  Bloodstone: 0
+  copper: 0
 --- !u!4 &897160839
 Transform:
   m_ObjectHideFlags: 0
@@ -2512,7 +2518,7 @@ GameObject:
   - component: {fileID: 904464610}
   - component: {fileID: 904464609}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: "\u30E1\u30CB\u30E5\u30FC\u30DC\u30BF\u30F3\u30C6\u30AD\u30B9\u30C8"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3344,7 +3350,7 @@ GameObject:
   - component: {fileID: 1113376193}
   - component: {fileID: 1113376192}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: "\u7D71\u8A08\u30C6\u30AD\u30B9\u30C8"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3816,7 +3822,7 @@ GameObject:
   - component: {fileID: 1220754674}
   - component: {fileID: 1220754673}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: "\u30C4\u30FC\u30EB\u5F37\u5316\u30C6\u30AD\u30B9\u30C8"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4137,7 +4143,7 @@ GameObject:
   - component: {fileID: 1342572889}
   - component: {fileID: 1342572888}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: "\u8A2D\u5B9A\u30C6\u30AD\u30B9\u30C8"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4580,13 +4586,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539913071}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f8438df99304b045a0cc097e69e1496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberTexts:
-  - {fileID: 338754734}
 --- !u!1 &1575405198
 GameObject:
   m_ObjectHideFlags: 0
@@ -4674,7 +4678,7 @@ GameObject:
   - component: {fileID: 1586059401}
   - component: {fileID: 1586059400}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: "\u7D20\u6750\u4E00\u89A7\u30C6\u30AD\u30B9\u30C8"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4883,7 +4887,7 @@ GameObject:
   - component: {fileID: 1620930314}
   - component: {fileID: 1620930313}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: "\u30DE\u30C3\u30D7\u30C6\u30AD\u30B9\u30C8"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5703,13 +5707,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69db19ddb3315c4ba704dfba05b967a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stone: {fileID: 1172287256}
+  Clickstone: {fileID: 1172287256}
   countText: {fileID: 1706966405}
-  oretext1: {fileID: 776449588}
-  oretext2: {fileID: 538004116}
-  oretext3: {fileID: 225822361}
-  oretext4: {fileID: 307885950}
-  one1texts: []
+  stonetext: {fileID: 776449588}
+  coaltext: {fileID: 538004116}
+  irontext: {fileID: 225822361}
+  goldtext: {fileID: 307885950}
+  Randomnumbr: 0
+  stone: 0
+  coal: 0
+  iron: 0
+  gold: 0
 --- !u!114 &2071417924
 MonoBehaviour:
   m_ObjectHideFlags: 0

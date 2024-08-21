@@ -5,25 +5,26 @@ using System.Collections.Generic;
 
 public class Click_Stone : MonoBehaviour
 {
-    public Button stone; // ボタンの参照
+    public Button Clickstone; // ボタンの参照
     public Text countText; // カウント表示用テキストの参照
-    public TextMeshProUGUI oretext1;
-    public TextMeshProUGUI oretext2;
-    public TextMeshProUGUI oretext3;
-    public TextMeshProUGUI oretext4;
-    public List<TextMeshProUGUI> one1texts;
+    public TextMeshProUGUI stonetext;
+    public TextMeshProUGUI coaltext;
+    public TextMeshProUGUI irontext;
+    public TextMeshProUGUI goldtext;
 
-    private int count = 0; // カウント変数
-    private int ore1 = 0;
-    private int ore2 = 0;
-    private int ore3 = 0;
-    private int ore4 = 0;
-    private int  Randomnumbr = 0;
+
+    private int count = 0; 
+    public int  Randomnumbr = 0;
+    public int stone= 0;
+    public int coal = 0;
+    public int iron = 0;
+    public int gold = 0;
+    
 
     void Start()
     {
         // ボタンにクリックイベントリスナーを追加
-        stone.onClick.AddListener(IncrementCount);
+        Clickstone.onClick.AddListener(IncrementCount);
         // 初期カウント表示
         UpdateCountText();
         
@@ -51,29 +52,29 @@ public class Click_Stone : MonoBehaviour
     {
         if (Randomnumbr == 1)
         {
-            ore1++;
-            oretext1.text = ore1.ToString();
+            DataManager.Instance.stone++;
+            stonetext.text = DataManager.Instance.stone.ToString();
             Randomnumbr = 0;
         }
 
         if (Randomnumbr == 2)
         {
-            ore2++;
-            oretext2.text = ore2.ToString();
+            DataManager.Instance.coal++;
+            coaltext.text = DataManager.Instance.coal.ToString();
             Randomnumbr = 0;
         }
 
         if (Randomnumbr == 3)
         {
-            ore3++;
-            oretext3.text = ore3.ToString();
+            DataManager.Instance.iron++;
+            irontext.text = DataManager.Instance.iron.ToString();
             Randomnumbr = 0;
         }
 
         if (Randomnumbr == 4)
         {
-            ore4++;
-            oretext4.text = ore4.ToString();
+            DataManager.Instance.gold++;
+            goldtext.text = DataManager.Instance.gold.ToString();
             Randomnumbr = 0;
         }
     }
