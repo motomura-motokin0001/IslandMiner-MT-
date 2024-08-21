@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class Click_Stone : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Click_Stone : MonoBehaviour
     public TextMeshProUGUI oretext2;
     public TextMeshProUGUI oretext3;
     public TextMeshProUGUI oretext4;
+    public List<TextMeshProUGUI> one1texts;
 
     private int count = 0; // カウント変数
     private int ore1 = 0;
