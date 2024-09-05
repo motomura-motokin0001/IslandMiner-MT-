@@ -6,18 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/1st Stage.unity
+    path: Assets/Scenes/1-0 SmallIsland_Cave.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/2-0 Grassland_Cave.unity
+    guid: e1eec55b148f61d4398cae3230a71ddd
+  - enabled: 1
+    path: Assets/Scenes/3-0 Desert_Cave.unity
+    guid: bca93c942a86e5740b4557f878d8b29e
+  - enabled: 1
+    path: Assets/Scenes/4-0 Snowfield_Cave.unity
+    guid: 31e9894eb663bf344a27f6f6006eb9c1
+  - enabled: 1
+    path: Assets/Scenes/5-0 Volcano_Cave.unity
+    guid: 732179c77447d244d95e02aa7688cafd
   - enabled: 1
     path: Assets/Scenes/MAP.unity
     guid: a8220194d319750408169e321b0b3167
   - enabled: 1
-    path: Assets/Scenes/option.unity
+    path: Assets/Scenes/Option.unity
     guid: 63d177c706890ad40a7942b00207a0af
   - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: 5ddfb3840b252c74cbf117970c9c040e
   - enabled: 1
-    path: Assets/Scenes/inventory.unity
+    path: Assets/Scenes/Inventory.unity
     guid: fb406bcd63db68c4da39afe6f24b48a4
   m_configObjects: {}

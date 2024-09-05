@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemtext: {fileID: 11028407}
-  itemname: coal
+  itemname: Coal
 --- !u!1 &11028405
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 11028408}
   - component: {fileID: 11028407}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -821,140 +821,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294991875}
   m_CullTransparentMesh: 1
---- !u!1 &299906136
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 299906137}
-  - component: {fileID: 299906139}
-  - component: {fileID: 299906138}
-  m_Layer: 0
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &299906137
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299906136}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1847308284}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -62}
-  m_SizeDelta: {x: 100, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &299906138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299906136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 1.0k
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 37.18
-  m_fontSizeBase: 37.18
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &299906139
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299906136}
-  m_CullTransparentMesh: 1
 --- !u!1 &338117059
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +833,7 @@ GameObject:
   - component: {fileID: 338117062}
   - component: {fileID: 338117061}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)2-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1012,7 +878,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -1180,7 +1046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemtext: {fileID: 952316826}
-  itemname: stone
+  itemname: Stone
 --- !u!1 &344493985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,7 +1059,7 @@ GameObject:
   - component: {fileID: 344493988}
   - component: {fileID: 344493987}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)2-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1238,7 +1104,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -1401,6 +1267,7 @@ GameObject:
   - component: {fileID: 362171440}
   - component: {fileID: 362171442}
   - component: {fileID: 362171441}
+  - component: {fileID: 362171443}
   m_Layer: 5
   m_Name: 4-1
   m_TagString: Untagged
@@ -1467,6 +1334,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362171439}
   m_CullTransparentMesh: 1
+--- !u!114 &362171443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362171439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 1574358129}
+  itemname: Moonstone
 --- !u!1 &406144646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,7 +1446,6 @@ RectTransform:
   - {fileID: 551091329}
   - {fileID: 1007880350}
   - {fileID: 151227778}
-  - {fileID: 1847308284}
   - {fileID: 182898542}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1661,7 +1541,7 @@ GameObject:
   - component: {fileID: 482655998}
   - component: {fileID: 482655997}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)4-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1706,7 +1586,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -1831,7 +1711,7 @@ GameObject:
   - component: {fileID: 510685315}
   - component: {fileID: 510685314}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)5-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1876,7 +1756,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -2115,7 +1995,7 @@ GameObject:
   - component: {fileID: 580623617}
   - component: {fileID: 580623616}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)5-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2160,7 +2040,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -2249,7 +2129,7 @@ GameObject:
   - component: {fileID: 590467329}
   - component: {fileID: 590467328}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)5-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2294,7 +2174,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -2537,7 +2417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemtext: {fileID: 754051390}
-  itemname: gold
+  itemname: Gold
 --- !u!1 &657628332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2549,6 +2429,7 @@ GameObject:
   - component: {fileID: 657628333}
   - component: {fileID: 657628335}
   - component: {fileID: 657628334}
+  - component: {fileID: 657628336}
   m_Layer: 5
   m_Name: 3-3
   m_TagString: Untagged
@@ -2615,6 +2496,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657628332}
   m_CullTransparentMesh: 1
+--- !u!114 &657628336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657628332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 1432239557}
+  itemname: Aquamarine
 --- !u!1 &667174765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2852,7 +2747,7 @@ GameObject:
   - component: {fileID: 733332928}
   - component: {fileID: 733332927}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)3-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2897,7 +2792,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -2986,7 +2881,7 @@ GameObject:
   - component: {fileID: 742125889}
   - component: {fileID: 742125888}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)4-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3031,7 +2926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -3195,7 +3090,7 @@ GameObject:
   - component: {fileID: 754051391}
   - component: {fileID: 754051390}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3328,6 +3223,7 @@ GameObject:
   - component: {fileID: 780313348}
   - component: {fileID: 780313350}
   - component: {fileID: 780313349}
+  - component: {fileID: 780313351}
   m_Layer: 5
   m_Name: 5-4
   m_TagString: Untagged
@@ -3394,6 +3290,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780313347}
   m_CullTransparentMesh: 1
+--- !u!114 &780313351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780313347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 580623616}
+  itemname: Adamantite
 --- !u!1 &817918468
 GameObject:
   m_ObjectHideFlags: 0
@@ -3406,7 +3316,7 @@ GameObject:
   - component: {fileID: 817918471}
   - component: {fileID: 817918470}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)3-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3451,7 +3361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -3539,6 +3449,7 @@ GameObject:
   - component: {fileID: 832430912}
   - component: {fileID: 832430914}
   - component: {fileID: 832430913}
+  - component: {fileID: 832430915}
   m_Layer: 5
   m_Name: 2-2
   m_TagString: Untagged
@@ -3605,6 +3516,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832430911}
   m_CullTransparentMesh: 1
+--- !u!114 &832430915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832430911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 2096058845}
+  itemname: Copper
 --- !u!1 &836709918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3692,7 +3617,7 @@ GameObject:
   - component: {fileID: 952316827}
   - component: {fileID: 952316826}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3826,7 +3751,7 @@ GameObject:
   - component: {fileID: 966702752}
   - component: {fileID: 966702751}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4409,7 +4334,7 @@ GameObject:
   - component: {fileID: 1056409141}
   - component: {fileID: 1056409140}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)3-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4454,7 +4379,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -4543,7 +4468,7 @@ GameObject:
   - component: {fileID: 1123161989}
   - component: {fileID: 1123161988}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)5-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4588,7 +4513,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -4676,6 +4601,7 @@ GameObject:
   - component: {fileID: 1128694362}
   - component: {fileID: 1128694364}
   - component: {fileID: 1128694363}
+  - component: {fileID: 1128694365}
   m_Layer: 5
   m_Name: 4-2
   m_TagString: Untagged
@@ -4742,6 +4668,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128694361}
   m_CullTransparentMesh: 1
+--- !u!114 &1128694365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128694361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 742125888}
+  itemname: LapisLazuli
 --- !u!1 &1194926078
 GameObject:
   m_ObjectHideFlags: 0
@@ -4903,6 +4843,7 @@ GameObject:
   - component: {fileID: 1281036676}
   - component: {fileID: 1281036678}
   - component: {fileID: 1281036677}
+  - component: {fileID: 1281036679}
   m_Layer: 5
   m_Name: 2-1
   m_TagString: Untagged
@@ -4969,6 +4910,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281036675}
   m_CullTransparentMesh: 1
+--- !u!114 &1281036679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281036675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 1469247934}
+  itemname: Bloodstone
 --- !u!1 &1290934692
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,7 +5137,7 @@ GameObject:
   - component: {fileID: 1298500255}
   - component: {fileID: 1298500254}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)4-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5227,7 +5182,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -5390,6 +5345,7 @@ GameObject:
   - component: {fileID: 1351718490}
   - component: {fileID: 1351718492}
   - component: {fileID: 1351718491}
+  - component: {fileID: 1351718493}
   m_Layer: 5
   m_Name: 3-2
   m_TagString: Untagged
@@ -5456,6 +5412,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351718489}
   m_CullTransparentMesh: 1
+--- !u!114 &1351718493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351718489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 733332927}
+  itemname: Quartz
 --- !u!1 &1392550094
 GameObject:
   m_ObjectHideFlags: 0
@@ -5467,6 +5437,7 @@ GameObject:
   - component: {fileID: 1392550095}
   - component: {fileID: 1392550097}
   - component: {fileID: 1392550096}
+  - component: {fileID: 1392550098}
   m_Layer: 5
   m_Name: 5-1
   m_TagString: Untagged
@@ -5533,6 +5504,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392550094}
   m_CullTransparentMesh: 1
+--- !u!114 &1392550098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392550094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 590467328}
+  itemname: Obsidian
 --- !u!1 &1421539245
 GameObject:
   m_ObjectHideFlags: 0
@@ -5625,7 +5610,7 @@ GameObject:
   - component: {fileID: 1432239558}
   - component: {fileID: 1432239557}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)3-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5670,7 +5655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -5759,7 +5744,7 @@ GameObject:
   - component: {fileID: 1469247935}
   - component: {fileID: 1469247934}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)2-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5804,7 +5789,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -5910,13 +5895,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8721ea669f4ab54d92b2366d80aae95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SmallIslandCave_Stone_count: 0
+  Grassland_Click_Stone_count: 0
+  Desert_Cave_Click_Stone_count: 0
+  Snowfield_Cave_Click_Stone_count: 0
+  Volcano_Cave_Click_Stone_count: 0
   coin: 0
-  stone: 0
-  iron: 0
-  coal: 0
-  gold: 0
+  Stone: 0
+  Iron: 0
+  Coal: 0
+  Gold: 0
+  Stone_Cost: 10
+  Coal_Cost: 10
+  Iron_Cost: 10
+  Gold_Cost: 10
+  StonePT: 1
+  CoalPT: 1
+  IronPT: 1
+  GoldPT: 1
   Bloodstone: 0
-  copper: 0
+  Copper: 0
+  jade: 0
+  Topaz: 0
+  Bloodstone_Cost: 0
+  Copper_Cost: 0
+  jade_Cost: 0
+  Topaz_Cost: 0
+  BloodstonePT: 1
+  CopperPT: 1
+  jadePT: 1
+  TopazPT: 1
+  Silver: 0
+  Quartz: 0
+  Aquamarine: 0
+  Emerald: 0
+  Silver_Cost: 10
+  Quartz_Cost: 10
+  Aquamarine_Cost: 0
+  Emerald_Cost: 0
+  SilverPT: 1
+  QuartzPT: 1
+  AquamarinePT: 1
+  EmeraldPT: 1
+  Moonstone: 0
+  LapisLazuli: 0
+  Amethyst: 0
+  Ruby: 0
+  Moonstone_Cost: 10
+  LapisLazuli_Cost: 10
+  Amethyst_Cost: 10
+  Ruby_Cost: 10
+  MoonstonePT: 1
+  LapisLazuliPT: 1
+  AmethystPT: 1
+  RubyPT: 1
+  Obsidian: 0
+  Sulfur: 0
+  RoseQuartz: 0
+  Adamantite: 0
+  Obsidian_Cost: 10
+  Sulfur_Cost: 10
+  RoseQuartz_Cost: 10
+  Adamantite_Cost: 10
+  ObsidianPT: 0
+  SulfurPT: 0
+  RoseQuartzPT: 0
+  AdamantitePT: 0
 --- !u!4 &1523641616
 Transform:
   m_ObjectHideFlags: 0
@@ -5944,7 +5988,7 @@ GameObject:
   - component: {fileID: 1574358130}
   - component: {fileID: 1574358129}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)4-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5989,7 +6033,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -6077,6 +6121,7 @@ GameObject:
   - component: {fileID: 1585885973}
   - component: {fileID: 1585885975}
   - component: {fileID: 1585885974}
+  - component: {fileID: 1585885976}
   m_Layer: 5
   m_Name: 2-4
   m_TagString: Untagged
@@ -6143,6 +6188,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585885972}
   m_CullTransparentMesh: 1
+--- !u!114 &1585885976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585885972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 344493987}
+  itemname: Topaz
 --- !u!1 &1588190285
 GameObject:
   m_ObjectHideFlags: 0
@@ -6234,7 +6293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemtext: {fileID: 966702751}
-  itemname: iron
+  itemname: Iron
 --- !u!1 &1591808476
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,6 +6305,7 @@ GameObject:
   - component: {fileID: 1591808477}
   - component: {fileID: 1591808479}
   - component: {fileID: 1591808478}
+  - component: {fileID: 1591808480}
   m_Layer: 5
   m_Name: 4-3
   m_TagString: Untagged
@@ -6312,6 +6372,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591808476}
   m_CullTransparentMesh: 1
+--- !u!114 &1591808480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591808476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 482655997}
+  itemname: Amethyst
 --- !u!1 &1683789177
 GameObject:
   m_ObjectHideFlags: 0
@@ -6398,6 +6472,7 @@ GameObject:
   - component: {fileID: 1755421463}
   - component: {fileID: 1755421465}
   - component: {fileID: 1755421464}
+  - component: {fileID: 1755421466}
   m_Layer: 5
   m_Name: 4-4
   m_TagString: Untagged
@@ -6464,6 +6539,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755421462}
   m_CullTransparentMesh: 1
+--- !u!114 &1755421466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755421462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 1298500254}
+  itemname: Ruby
 --- !u!1 &1782290879
 GameObject:
   m_ObjectHideFlags: 0
@@ -6475,6 +6564,7 @@ GameObject:
   - component: {fileID: 1782290880}
   - component: {fileID: 1782290882}
   - component: {fileID: 1782290881}
+  - component: {fileID: 1782290883}
   m_Layer: 5
   m_Name: 5-3
   m_TagString: Untagged
@@ -6541,6 +6631,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782290879}
   m_CullTransparentMesh: 1
+--- !u!114 &1782290883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782290879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 510685314}
+  itemname: RoseQuartz
 --- !u!1 &1835176852
 GameObject:
   m_ObjectHideFlags: 0
@@ -6552,6 +6656,7 @@ GameObject:
   - component: {fileID: 1835176853}
   - component: {fileID: 1835176855}
   - component: {fileID: 1835176854}
+  - component: {fileID: 1835176856}
   m_Layer: 5
   m_Name: 2-3
   m_TagString: Untagged
@@ -6618,82 +6723,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835176852}
   m_CullTransparentMesh: 1
---- !u!1 &1847308283
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1847308284}
-  - component: {fileID: 1847308286}
-  - component: {fileID: 1847308285}
-  m_Layer: 0
-  m_Name: coin
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1847308284
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847308283}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.166666}
-  m_LocalScale: {x: 2, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 299906137}
-  m_Father: {fileID: 406144650}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -817.15, y: 243}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1847308285
+--- !u!114 &1835176856
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847308283}
+  m_GameObject: {fileID: 1835176852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea59abc0064450c4688653829f42e942, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1847308286
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847308283}
-  m_CullTransparentMesh: 1
+  itemtext: {fileID: 338117061}
+  itemname: jade
 --- !u!1 &1896553632
 GameObject:
   m_ObjectHideFlags: 0
@@ -6705,6 +6748,7 @@ GameObject:
   - component: {fileID: 1896553633}
   - component: {fileID: 1896553635}
   - component: {fileID: 1896553634}
+  - component: {fileID: 1896553636}
   m_Layer: 5
   m_Name: 3-4
   m_TagString: Untagged
@@ -6771,6 +6815,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896553632}
   m_CullTransparentMesh: 1
+--- !u!114 &1896553636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896553632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 1056409140}
+  itemname: Emerald
 --- !u!1 &1948600799
 GameObject:
   m_ObjectHideFlags: 0
@@ -6857,6 +6915,7 @@ GameObject:
   - component: {fileID: 1995275004}
   - component: {fileID: 1995275006}
   - component: {fileID: 1995275005}
+  - component: {fileID: 1995275007}
   m_Layer: 5
   m_Name: 5-2
   m_TagString: Untagged
@@ -6923,6 +6982,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995275003}
   m_CullTransparentMesh: 1
+--- !u!114 &1995275007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995275003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 1123161988}
+  itemname: Sulfur
 --- !u!1 &2009161552
 GameObject:
   m_ObjectHideFlags: 0
@@ -6934,6 +7007,7 @@ GameObject:
   - component: {fileID: 2009161553}
   - component: {fileID: 2009161555}
   - component: {fileID: 2009161554}
+  - component: {fileID: 2009161556}
   m_Layer: 5
   m_Name: 3-1
   m_TagString: Untagged
@@ -7000,6 +7074,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009161552}
   m_CullTransparentMesh: 1
+--- !u!114 &2009161556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009161552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59faea358208f6c48ba82ee85972e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemtext: {fileID: 817918470}
+  itemname: Silver
 --- !u!1 &2031459844
 GameObject:
   m_ObjectHideFlags: 0
@@ -7150,37 +7238,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2034345752}
   m_CullTransparentMesh: 1
---- !u!1 &2051362676
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2051362677}
-  m_Layer: 0
-  m_Name: "\u7D20\u6750"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2051362677
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051362676}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 979.2849, y: 564.5009, z: 10}
-  m_LocalScale: {x: 103.68001, y: 103.68001, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096058843
 GameObject:
   m_ObjectHideFlags: 0
@@ -7193,7 +7250,7 @@ GameObject:
   - component: {fileID: 2096058846}
   - component: {fileID: 2096058845}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP)2-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7238,7 +7295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1.0k
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
   m_sharedMaterial: {fileID: 6945801753824693994, guid: 14b6ea60ed59d834d9fe53faefb15537, type: 2}
@@ -7321,5 +7378,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 406144650}
   - {fileID: 5399132}
-  - {fileID: 2051362677}
   - {fileID: 1523641616}
