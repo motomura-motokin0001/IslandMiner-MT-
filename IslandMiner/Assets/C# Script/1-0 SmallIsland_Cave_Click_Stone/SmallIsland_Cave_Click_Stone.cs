@@ -42,7 +42,7 @@ public class SmallIsland_Cave_Click_Stone : MonoBehaviour
     }
 
 
-    void SCCS_IncrementCount()
+    public void SCCS_IncrementCount()
     {
         DataManager.Instance.SmallIslandCave_Stone_count++; 
         SCCS_UpdateCountText();
