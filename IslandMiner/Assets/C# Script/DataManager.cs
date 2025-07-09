@@ -5,7 +5,7 @@ public class DataManager : MonoBehaviour
 {
     public static DataManager Instance { get; private set; }
 
-    public int SmallIslandCave_Stone_count;
+    // public int SmallIslandCave_Stone_count;
     public int Grassland_Click_Stone_count;
     public int Desert_Cave_Click_Stone_count;
     public int Snowfield_Cave_Click_Stone_count;
@@ -14,23 +14,23 @@ public class DataManager : MonoBehaviour
 //1-1~1-4
 
 //-----Quantity-----
-    public int coin = 0;
-    public int Stone = 0;
-    public int Iron = 0;
-    public int Coal = 0;
-    public int Gold = 0;
+//     public int coin = 0;
+//     public int Stone = 0;
+//     public int Iron = 0;
+//     public int Coal = 0;
+//     public int Gold = 0;
 
-//-----Cost-----
-    public int Stone_Cost = 10;
-    public int Coal_Cost = 10;
-    public int Iron_Cost = 10;
-    public int Gold_Cost = 10;
+// //-----Cost-----
+//     public int Stone_Cost = 10;
+//     public int Coal_Cost = 10;
+//     public int Iron_Cost = 10;
+//     public int Gold_Cost = 10;
 
-//-----Increased value-----
-    public int StonePT = 1;
-    public int CoalPT = 1;
-    public int IronPT = 1;
-    public int GoldPT = 1;
+// //-----Increased value-----
+//     public int StonePT = 1;
+//     public int CoalPT = 1;
+//     public int IronPT = 1;
+//     public int GoldPT = 1;
 
     //2-1~2-4
 
@@ -136,10 +136,10 @@ public int Ruby = 0;
     public void Save()
     {
 //Quantity
-        PlayerPrefs.SetInt("stone_deta", Stone);
-        PlayerPrefs.SetInt("coal_deta", Coal);
-        PlayerPrefs.SetInt("iron_deta", Iron);
-        PlayerPrefs.SetInt("gold_deta", Gold);
+        // PlayerPrefs.SetInt("stone_deta", Stone);
+        // PlayerPrefs.SetInt("coal_deta", Coal);
+        // PlayerPrefs.SetInt("iron_deta", Iron);
+        // PlayerPrefs.SetInt("gold_deta", Gold);
 
         PlayerPrefs.SetInt("Bloodstone_deta", Bloodstone);
         PlayerPrefs.SetInt("Copper_deta", Copper);
@@ -162,10 +162,10 @@ public int Ruby = 0;
         PlayerPrefs.SetInt("Adamantite_deta", Adamantite);
 
 //Cost
-        PlayerPrefs.SetInt("stone_Cost_deta", Stone_Cost);
-        PlayerPrefs.SetInt("coal_Cost_deta", Coal_Cost);
-        PlayerPrefs.SetInt("iron_Cost_deta", Iron_Cost);
-        PlayerPrefs.SetInt("gold_Cost_deta", Gold_Cost);
+        // PlayerPrefs.SetInt("stone_Cost_deta", Stone_Cost);
+        // PlayerPrefs.SetInt("coal_Cost_deta", Coal_Cost);
+        // PlayerPrefs.SetInt("iron_Cost_deta", Iron_Cost);
+        // PlayerPrefs.SetInt("gold_Cost_deta", Gold_Cost);
 
         PlayerPrefs.SetInt("Bloodstone_Cost_deta", Bloodstone_Cost);
         PlayerPrefs.SetInt("Copper_Cost_deta", Copper_Cost);
@@ -188,10 +188,10 @@ public int Ruby = 0;
         PlayerPrefs.SetInt("Adamantite_Cost_deta", Adamantite_Cost);
 
 //Increased value
-        PlayerPrefs.SetInt("stonePT_deta", StonePT);
-        PlayerPrefs.SetInt("coalPT_deta", CoalPT);
-        PlayerPrefs.SetInt("ironPT_deta", IronPT);
-        PlayerPrefs.SetInt("goldPT_deta", GoldPT);
+        // PlayerPrefs.SetInt("stonePT_deta", StonePT);
+        // PlayerPrefs.SetInt("coalPT_deta", CoalPT);
+        // PlayerPrefs.SetInt("ironPT_deta", IronPT);
+        // PlayerPrefs.SetInt("goldPT_deta", GoldPT);
 
         PlayerPrefs.SetInt("BloodstonePT_deta", BloodstonePT);
         PlayerPrefs.SetInt("CopperPT_deta", CopperPT);
@@ -220,10 +220,10 @@ public int Ruby = 0;
     void Load()
     {
 //Quantity
-        PlayerPrefs.GetInt("stone_deta", Stone);
-        PlayerPrefs.GetInt("coal_deta", Coal);
-        PlayerPrefs.GetInt("iron_deta", Iron);
-        PlayerPrefs.GetInt("gold_deta", Gold);
+        // PlayerPrefs.GetInt("stone_deta", Stone);
+        // PlayerPrefs.GetInt("coal_deta", Coal);
+        // PlayerPrefs.GetInt("iron_deta", Iron);
+        // PlayerPrefs.GetInt("gold_deta", Gold);
 
         PlayerPrefs.GetInt("Bloodstone_deta", Bloodstone);
         PlayerPrefs.GetInt("Copper_deta", Copper);
@@ -246,10 +246,10 @@ public int Ruby = 0;
         PlayerPrefs.GetInt("Adamantite_deta", Adamantite);
 
 //Cost
-        PlayerPrefs.GetInt("stone_Cost_deta", Stone_Cost);
-        PlayerPrefs.GetInt("coal_Cost_deta", Coal_Cost);
-        PlayerPrefs.GetInt("iron_Cost_deta", Iron_Cost);
-        PlayerPrefs.GetInt("gold_Cost_deta", Gold_Cost);
+        // PlayerPrefs.GetInt("stone_Cost_deta", Stone_Cost);
+        // PlayerPrefs.GetInt("coal_Cost_deta", Coal_Cost);
+        // PlayerPrefs.GetInt("iron_Cost_deta", Iron_Cost);
+        // PlayerPrefs.GetInt("gold_Cost_deta", Gold_Cost);
 
         PlayerPrefs.GetInt("Bloodstone_Cost_deta", Bloodstone_Cost);
         PlayerPrefs.GetInt("Copper_Cost_deta", Copper_Cost);
@@ -272,10 +272,10 @@ public int Ruby = 0;
         PlayerPrefs.GetInt("Adamantite_Cost_deta", Adamantite_Cost);
 
 //Increased value
-        PlayerPrefs.GetInt("stonePT_deta", StonePT);
-        PlayerPrefs.GetInt("coalPT_deta", CoalPT);
-        PlayerPrefs.GetInt("ironPT_deta", IronPT);
-        PlayerPrefs.GetInt("goldPT_deta", GoldPT);
+        // PlayerPrefs.GetInt("stonePT_deta", StonePT);
+        // PlayerPrefs.GetInt("coalPT_deta", CoalPT);
+        // PlayerPrefs.GetInt("ironPT_deta", IronPT);
+        // PlayerPrefs.GetInt("goldPT_deta", GoldPT);
 
         PlayerPrefs.GetInt("BloodstonePT_deta", BloodstonePT);
         PlayerPrefs.GetInt("CopperPT_deta", CopperPT);

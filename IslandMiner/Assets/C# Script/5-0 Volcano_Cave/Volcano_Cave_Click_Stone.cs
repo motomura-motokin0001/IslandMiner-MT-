@@ -119,7 +119,7 @@ public class Volcano_Cave_Click_Stone : MonoBehaviour
     {
         if(DataManager.Instance.Sulfur_Cost <= DataManager.Instance.Sulfur)
         {
-            DataManager.Instance.Sulfur = DataManager.Instance.Coal - DataManager.Instance.Sulfur_Cost;
+            DataManager.Instance.Sulfur = DataManager.Instance.Sulfur - DataManager.Instance.Sulfur_Cost;
             DataManager.Instance.SulfurPT = DataManager.Instance.SulfurPT + 1;
             DataManager.Instance.Sulfur_Cost = DataManager.Instance.Sulfur_Cost * 2;
             Debug.Log("強化出来ました！");

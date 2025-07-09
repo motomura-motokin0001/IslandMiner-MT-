@@ -3,9 +3,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using UnityEditor;
-using UnityEditor.UI;
-using Unity.VisualScripting;
+
 
 public class LoadsceneController : MonoBehaviour
 {

@@ -7,12 +7,8 @@ using UnityEngine.Animations;
 
 public class SmallIsland_Cave_Click_Stone : MonoBehaviour
 {
-    public Button SCCS_Clickstone;
-    public Button Stone_Enhancement;
-    public Button Coal_Enhancement;
-    public Button Iron_Enhancement;
-    public Button Gold_Enhancement;
-    public Text SCCS_countText;
+
+    public TextMeshProUGUI SCCS_countText;
     public TextMeshProUGUI Stone_CostText;
     public TextMeshProUGUI Coal_CostText;
     public TextMeshProUGUI Iron_CostText;
@@ -24,15 +20,24 @@ public class SmallIsland_Cave_Click_Stone : MonoBehaviour
 
     private int  Randomnumbr = 0;
 
-
+void Awake()
+{
+    if (Stonetext == null) Debug.LogError("Stonetext が設定されていません！");
+    if (Coaltext == null) Debug.LogError("Coaltext が設定されていません！");
+    if (Irontext == null) Debug.LogError("Irontext が設定されていません！");
+    if (Goldtext == null) Debug.LogError("Goldtext が設定されていません！");
+    if (Stone_CostText == null) Debug.LogError("Stone_CostText が設定されていません！");
+    if (Coal_CostText == null) Debug.LogError("Coal_CostText が設定されていません！");
+    if (Iron_CostText == null) Debug.LogError("Iron_CostText が設定されていません！");
+    if (Gold_CostText == null) Debug.LogError("Gold_CostText が設定されていません！");
+        if (SCCS_countText == null)
+    {
+        Debug.LogError("countText が Inspector で設定されていません！");
+    }
+}
     void Start()
     {
-        SCCS_Clickstone.onClick.AddListener(SCCS_IncrementCount);
-        Stone_Enhancement.onClick.AddListener(SE);
-        Coal_Enhancement.onClick.AddListener(CE);
-        Iron_Enhancement.onClick.AddListener(IE);
-        Gold_Enhancement.onClick.AddListener(GE);
-        
+
         SCCS_UpdateCountText();
     }
     void SCCS_RandomNB()
@@ -44,56 +49,61 @@ public class SmallIsland_Cave_Click_Stone : MonoBehaviour
 
     public void SCCS_IncrementCount()
     {
-        DataManager.Instance.SmallIslandCave_Stone_count++; 
+        GameData.Instance.SmallIslandCave_Stone_count++; 
         SCCS_UpdateCountText();
         SCCS_RandomNB();
     }
 
     void SCCS_UpdateCountText()
     {
-        SCCS_countText.text = DataManager.Instance.SmallIslandCave_Stone_count.ToString() + "回"; 
+            if (SCCS_countText == null)
+    {
+        Debug.LogError("countText が設定されていません！");
+        return;
+    }
+        SCCS_countText.text = GameData.Instance.SmallIslandCave_Stone_count.ToString() ; 
     }
 
     void Update()
     {
-        Stonetext.text = DataManager.Instance.Stone.ToString();
-        Coaltext.text = DataManager.Instance.Coal.ToString();
-        Irontext.text = DataManager.Instance.Iron.ToString();
-        Goldtext.text = DataManager.Instance.Gold.ToString();
-        Stone_CostText.text = "cost" + DataManager.Instance.Stone_Cost.ToString();
-        Coal_CostText.text = "cost" + DataManager.Instance.Coal_Cost.ToString();
-        Iron_CostText.text = "cost" + DataManager.Instance.Iron_Cost.ToString();
-        Gold_CostText.text = "cost" + DataManager.Instance.Gold_Cost.ToString();
+        Stonetext.text = GameData.Instance.Stone.ToString();
+        Coaltext.text = GameData.Instance.Coal.ToString();
+        Irontext.text = GameData.Instance.Iron.ToString();
+        Goldtext.text = GameData.Instance.Gold.ToString();
+        Stone_CostText.text = "cost" + GameData.Instance.Stone_Cost.ToString();
+        Coal_CostText.text = "cost" + GameData.Instance.Coal_Cost.ToString();
+        Iron_CostText.text = "cost" + GameData.Instance.Iron_Cost.ToString();
+        Gold_CostText.text = "cost" + GameData.Instance.Gold_Cost.ToString();
 
 
         if (Randomnumbr == 1)
         {
-            int newStoneValue = DataManager.Instance.Stone + DataManager.Instance.StonePT;
-            DataManager.Instance.Stone = newStoneValue;
+            int newStoneValue = GameData.Instance.Stone + GameData.Instance.StonePT;
+            GameData.Instance.Stone = newStoneValue;
             Stonetext.text = newStoneValue.ToString();
             Randomnumbr = 0;
         }
 
         if (Randomnumbr == 2)
         {
-            int newCoalValue = DataManager.Instance.Coal + DataManager.Instance.CoalPT;
-            DataManager.Instance.Coal = newCoalValue;
+            int newCoalValue = GameData.Instance.Coal + GameData.Instance.CoalPT;
+            GameData.Instance.Coal = newCoalValue;
             Coaltext.text = newCoalValue.ToString();
             Randomnumbr = 0;
         }
 
         if (Randomnumbr == 3)
         {
-            int newIronValue = DataManager.Instance.Iron + DataManager.Instance.IronPT;
-            DataManager.Instance.Iron = newIronValue;
+            int newIronValue = GameData.Instance.Iron + GameData.Instance.IronPT;
+            GameData.Instance.Iron = newIronValue;
             Irontext.text = newIronValue.ToString();
             Randomnumbr = 0;
         }
 
         if (Randomnumbr == 4)
         {
-            int newGoldValue = DataManager.Instance.Gold + DataManager.Instance.GoldPT;
-            DataManager.Instance.Gold = newGoldValue;
+            int newGoldValue = GameData.Instance.Gold + GameData.Instance.GoldPT;
+            GameData.Instance.Gold = newGoldValue;
             Goldtext.text = newGoldValue.ToString();
             Randomnumbr = 0;
         }
@@ -101,11 +111,11 @@ public class SmallIsland_Cave_Click_Stone : MonoBehaviour
 
     public void SE()
     {
-        if(DataManager.Instance.Stone_Cost <= DataManager.Instance.Stone)
+        if(GameData.Instance.Stone_Cost <= GameData.Instance.Stone)
         {
-            DataManager.Instance.Stone = DataManager.Instance.Stone - DataManager.Instance.Stone_Cost;
-            DataManager.Instance.StonePT = DataManager.Instance.StonePT + 1;
-            DataManager.Instance.Stone_Cost = DataManager.Instance.Stone_Cost * 2;
+            GameData.Instance.Stone = GameData.Instance.Stone - GameData.Instance.Stone_Cost;
+            GameData.Instance.StonePT = GameData.Instance.StonePT + 1;
+            GameData.Instance.Stone_Cost = GameData.Instance.Stone_Cost * 2;
             Debug.Log("強化出来ました！");
         }
         else
@@ -116,11 +126,11 @@ public class SmallIsland_Cave_Click_Stone : MonoBehaviour
 
     public void CE()
     {
-        if(DataManager.Instance.Coal_Cost <= DataManager.Instance.Coal)
+        if(GameData.Instance.Coal_Cost <= GameData.Instance.Coal)
         {
-            DataManager.Instance.Coal = DataManager.Instance.Coal - DataManager.Instance.Coal_Cost;
-            DataManager.Instance.CoalPT = DataManager.Instance.CoalPT + 1;
-            DataManager.Instance.Coal_Cost = DataManager.Instance.Coal_Cost * 2;
+            GameData.Instance.Coal = GameData.Instance.Coal - GameData.Instance.Coal_Cost;
+            GameData.Instance.CoalPT = GameData.Instance.CoalPT + 1;
+            GameData.Instance.Coal_Cost = GameData.Instance.Coal_Cost * 2;
             Debug.Log("強化出来ました！");
         }
         else
@@ -131,11 +141,11 @@ public class SmallIsland_Cave_Click_Stone : MonoBehaviour
 
     public void IE()
     {
-        if(DataManager.Instance.Iron_Cost <= DataManager.Instance.Iron)
+        if(GameData.Instance.Iron_Cost <= GameData.Instance.Iron)
         {
-            DataManager.Instance.Iron =  DataManager.Instance.Iron- DataManager.Instance.Iron_Cost;
-            DataManager.Instance.IronPT = DataManager.Instance.IronPT + 1;
-            DataManager.Instance.Iron_Cost = DataManager.Instance.Iron_Cost * 2;
+            GameData.Instance.Iron =  GameData.Instance.Iron- GameData.Instance.Iron_Cost;
+            GameData.Instance.IronPT = GameData.Instance.IronPT + 1;
+            GameData.Instance.Iron_Cost = GameData.Instance.Iron_Cost * 2;
             Debug.Log("強化出来ました！");
         }
         else
@@ -146,11 +156,11 @@ public class SmallIsland_Cave_Click_Stone : MonoBehaviour
 
     public void GE()
     {
-        if(DataManager.Instance.Gold_Cost <= DataManager.Instance.Gold)
+        if(GameData.Instance.Gold_Cost <= GameData.Instance.Gold)
         {
-            DataManager.Instance.Gold = DataManager.Instance.Gold - DataManager.Instance.Gold_Cost ;
-            DataManager.Instance.GoldPT = DataManager.Instance.GoldPT + 1;
-            DataManager.Instance.Gold_Cost = DataManager.Instance.Gold_Cost * 2;
+            GameData.Instance.Gold = GameData.Instance.Gold - GameData.Instance.Gold_Cost ;
+            GameData.Instance.GoldPT = GameData.Instance.GoldPT + 1;
+            GameData.Instance.Gold_Cost = GameData.Instance.Gold_Cost * 2;
             Debug.Log("強化出来ました！");
         }
         else

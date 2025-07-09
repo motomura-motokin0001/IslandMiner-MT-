@@ -121,7 +121,7 @@ public class Desert_Cave_Click_Stone : MonoBehaviour
     {
         if(DataManager.Instance.Quartz_Cost <= DataManager.Instance.Quartz)
         {
-            DataManager.Instance.Quartz = DataManager.Instance.Coal - DataManager.Instance.Quartz_Cost;
+            DataManager.Instance.Quartz = DataManager.Instance.Quartz - DataManager.Instance.Quartz_Cost;
             DataManager.Instance.QuartzPT = DataManager.Instance.QuartzPT + 1;
             DataManager.Instance.Quartz_Cost = DataManager.Instance.Quartz_Cost * 2;
             Debug.Log("強化出来ました！");

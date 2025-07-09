@@ -60,7 +60,7 @@ public class Grassland_Cave_Click_Stone : MonoBehaviour
         jadetext.text = DataManager.Instance.jade.ToString();
         Topaztext.text = DataManager.Instance.Topaz.ToString();
         Bloodstone_CostText.text = "cost" + DataManager.Instance.Bloodstone.ToString();
-        Copper_CostText.text = "cost" + DataManager.Instance.Coal_Cost.ToString();
+        Copper_CostText.text = "cost" + DataManager.Instance.Copper_Cost.ToString();
         jade_CostText.text = "cost" + DataManager.Instance.jade_Cost.ToString();
         Topaz_CostText.text = "cost" + DataManager.Instance.Topaz_Cost.ToString();
 

@@ -123,7 +123,7 @@ public class Snowfield_Cave_Click_Stone : MonoBehaviour
     {
         if(DataManager.Instance.LapisLazuli_Cost <= DataManager.Instance.LapisLazuli)
         {
-            DataManager.Instance.LapisLazuli = DataManager.Instance.Coal - DataManager.Instance.LapisLazuli_Cost;
+            DataManager.Instance.LapisLazuli = DataManager.Instance.LapisLazuli - DataManager.Instance.LapisLazuli_Cost;
             DataManager.Instance.LapisLazuliPT = DataManager.Instance.LapisLazuliPT + 1;
             DataManager.Instance.LapisLazuli_Cost = DataManager.Instance.LapisLazuli_Cost * 2;
             Debug.Log("強化出来ました！");
