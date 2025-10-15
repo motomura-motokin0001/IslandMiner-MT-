@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bb5b7af4d8643f34da8a8c3a6eef4a7c
+guid: bc2c98d6b8515064f95b527898681e4d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3381951023517720031
-    second: "\u540D\u79F0\u672A\u8A2D\u5B9A\u306E\u30C7\u30B6\u30A4\u30F3-removebg-preview_0"
+      213: -3998172499216865381
+    second: Twon_Button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u540D\u79F0\u672A\u8A2D\u5B9A\u306E\u30C7\u30B6\u30A4\u30F3-removebg-preview_0"
+      name: Twon_Button_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 450
-        height: 200
+        width: 500
+        height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 28, y: 28, z: 28, w: 28}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fddda8c998a1fee20800000000000000
-      internalID: 3381951023517720031
+      spriteID: b9761719b43a388c0800000000000000
+      internalID: -3998172499216865381
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 92ef7498db3975044b3c908f5ba605ff
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\u540D\u79F0\u672A\u8A2D\u5B9A\u306E\u30C7\u30B6\u30A4\u30F3-removebg-preview_0": 3381951023517720031
+      Twon_Button_0: -3998172499216865381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
