@@ -6,21 +6,9 @@ public class Inventory : MonoBehaviour
 {
     public StoneClick StoneClick;
 
-    public int copper;
-    public int iron;
-    public int Silver;
-    public int gold;
-
-    [SerializeField] private TextMeshProUGUI _copperText;
-    [SerializeField] private TextMeshProUGUI _ironText;
-    [SerializeField] private TextMeshProUGUI _SilverText;
-    [SerializeField] private TextMeshProUGUI _goldText;
-
-
-
     void Start()
     {
-        // データロード
+        SaveSystem.Instance.LoadGame();
     }
 
     public void Record()
@@ -28,24 +16,20 @@ public class Inventory : MonoBehaviour
         switch (StoneClick.LotteryNumber)
         {
             case 1:
-                copper++;
-                Debug.Log("copper obtained! Total: " + copper);
-                Display();
+                SaveSystem.Instance.UserData.Copper++;
+                Debug.Log("copper obtained! Total: " + SaveSystem.Instance.UserData.Copper);
                 break;
             case 2:
-                iron++;
-                Debug.Log("Iron obtained! Total: " + iron);
-                Display();
+                SaveSystem.Instance.UserData.Iron++;
+                Debug.Log("Iron obtained! Total: " + SaveSystem.Instance.UserData.Iron);
                 break;
             case 3:
-                Silver++;
-                Debug.Log("Silver obtained! Total: " + Silver);
-                Display();
+                SaveSystem.Instance.UserData.Silver++;
+                Debug.Log("Silver obtained! Total: " + SaveSystem.Instance.UserData.Silver);
                 break;
             case 4:
-                gold++;
-                Debug.Log("Gold obtained! Total: " + gold);
-                Display();
+                SaveSystem.Instance.UserData.Gold++;
+                Debug.Log("Gold obtained! Total: " + SaveSystem.Instance.UserData.Gold);
                 break;
             default:
                 Debug.Log("アイテムなし");
@@ -53,11 +37,5 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    void Display()
-    {
-        _copperText.text = NumberFormatter.FormatNumber(copper);
-        _ironText.text = NumberFormatter.FormatNumber(iron);
-        _SilverText.text = NumberFormatter.FormatNumber(Silver);
-        _goldText.text = NumberFormatter.FormatNumber(gold);
-    }
+
 }

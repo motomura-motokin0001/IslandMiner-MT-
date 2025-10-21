@@ -17,4 +17,23 @@ public static class NumberFormatter
 
         return (number / 1_000_000_000f).ToString("0.#") + "B";  // 十億（Billion）
     }
+
+    public static string FormatTime(int totalSeconds)
+    {
+        // ① 日・時間・分・秒をそれぞれ計算
+        int days = totalSeconds / 86400; // 1日は86400秒
+        int hours = (totalSeconds % 86400) / 3600; // 残りを1時間(3600秒)で割る
+        int minutes = (totalSeconds % 3600) / 60;  // 残りを1分(60秒)で割る
+        int seconds = totalSeconds % 60;           // 残りが秒
+
+        // ② 文字列を整形
+        string result = "";
+
+        if (days > 0) result += days + "日 ";
+        if (hours > 0 || days > 0) result += hours + "時間 ";
+        if (minutes > 0 || hours > 0 || days > 0) result += minutes + "分 ";
+        result += seconds + "秒";
+
+        return result.Trim();
+    }
 }
