@@ -28,12 +28,13 @@ public class UserData
 
     /*==============アップグレードデータ==============*/
 
-    public int Minor = 0;//ツルハシレベル
+    public int Minor = 0;//採掘者レベル
 
     /*===============================================*/
     /*==============その他==============*/
-
-    public int AutoSave = 0;//ツルハシレベル
+    public int BGMVolume = 50;//BGM音量
+    public int SEvolume = 50;//SE音量
+    public int AutoSave = 1;//オートセーブ
 
     /*===============================================*/
 }

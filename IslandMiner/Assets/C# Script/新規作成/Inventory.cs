@@ -6,11 +6,6 @@ public class Inventory : MonoBehaviour
 {
     public StoneClick StoneClick;
 
-    void Start()
-    {
-        SaveSystem.Instance.LoadGame();
-    }
-
     public void Record()
     {
         switch (StoneClick.LotteryNumber)

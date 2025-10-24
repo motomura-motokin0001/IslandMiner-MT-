@@ -1,8 +1,7 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements.Experimental;
 using TMPro;
+using DG.Tweening;
 
 public class AutoSave : MonoBehaviour
 {
@@ -10,6 +9,9 @@ public class AutoSave : MonoBehaviour
     private float _TimeLimit;
     private float _time;
     [SerializeField] private string _Debag_value;
+    [SerializeField] private GameObject _PopUp;
+    [SerializeField] private Vector3 _DisplayPos;
+    [SerializeField] private Vector3 _HiddenPos;
 
 public static AutoSave Instance;
 
@@ -63,6 +65,10 @@ public static AutoSave Instance;
         {
             SaveSystem.Instance.SaveGame();
             _time = 0;
+            _PopUp.transform.DOLocalMove(_DisplayPos, 2f).OnComplete(() =>
+        {
+            _PopUp.transform.DOLocalMove(_HiddenPos, 0.5f).SetDelay(3f);
+        });
         }
         _Debag_value = NumberFormatter.FormatTime((int)_time).ToString();
     }
@@ -91,9 +97,9 @@ public static AutoSave Instance;
                 _TimeLimit = 3600;  // 60分
                 break;
         }
+        Debug.Log($"オートセーブ間隔を {_TimeLimit} 秒に設定");
         SaveSystem.Instance.UserData.AutoSave = value;
         SaveSystem.Instance.SaveGame();
         _time = 0;
-        Debug.Log($"オートセーブ間隔を {_TimeLimit} 秒に設定");
     }
 }

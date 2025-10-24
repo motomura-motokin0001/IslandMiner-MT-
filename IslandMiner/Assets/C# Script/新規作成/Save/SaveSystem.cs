@@ -21,8 +21,15 @@ public class SaveSystem
         writer.WriteLine(jsonData);
         writer.Flush();
         writer.Close();
-        Debug.Log($"セーブしました。\n=================\nユーザーネーム: {SaveSystem.Instance.UserData.UserName}\n最終セーブ日時: {SaveSystem.Instance.UserData.SaveDate}\n総プレイ時間: {NumberFormatter.FormatNumber(SaveSystem.Instance.UserData.ClickCount)}\n=================\n");
-    }
+        try
+        {
+            Debug.Log($"セーブしました。\n=================\nユーザーネーム: {SaveSystem.Instance.UserData.UserName}\n最終セーブ日時: {SaveSystem.Instance.UserData.SaveDate}\n総プレイ時間: {NumberFormatter.FormatNumber(SaveSystem.Instance.UserData.ClickCount)}\n=================\n");
+        }
+        catch
+        {
+            return;
+        }
+        }
 
     public void LoadGame()
     {
